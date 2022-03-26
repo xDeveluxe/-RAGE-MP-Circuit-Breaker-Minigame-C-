@@ -1,8 +1,8 @@
-# -RAGE-MP-Circuit-Breaker-Minigame-C-
+# Circuit Breaker for RAGE:MP
 Minigame from the original heist update, done with scaleform without CEF.
 
 Installing:
-Put all files in client_packages\cs_packages\
+Simply put all files in client_packages\cs_packages\
 
 To call that script:
 Event name: 
@@ -14,9 +14,7 @@ Difficulty Level (0 - 4) (0 is beginner, 4 is expert)
 Levels to complete (1 - 6)
 
 C# Server Example:
-
 player.TriggerEvent("CircuitBreakerStart", 5, 1, 6);
-
 
 Game results events:
 CircuitBreakerWIN - is called at client side, when player succeed at all levels, no args.
